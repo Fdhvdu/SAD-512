@@ -1,6 +1,6 @@
 # SAD512
 Calculate Sum of Absolute Difference (SAD) by AVX-512.<br>
-Your machine should support C++14, AVX2 and AVX-512.
+Your machine should support C++17, AVX2 and AVX-512.
 
 # Warnings
 Before using this library, you should aware of something.<br>
