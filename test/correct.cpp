@@ -9,7 +9,7 @@
 #include<thread>
 #include<type_traits>
 #include<vector>
-#include"SAD-512/header/intel_sad.hpp"
+#include"../header/intel_sad.hpp"
 using namespace std;
 
 namespace
