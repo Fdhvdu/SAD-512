@@ -21,7 +21,7 @@ Hyper-threading should be carefully used. When it is enable, the latency and thr
 2.<br>
 Due to the first reason, I put a lot of other approaches in [intel_sad.cpp](https://github.com/Fdhvdu/SAD-512/blob/master/src/intel_sad.cpp).<br>
 3.<br>
-Write a program to test correctness. Compilers may do wrong optimization. (I am talking to you, gcc).<br>
+Write a program to test correctness. Compilers may do wrong optimization.<br>
 I provide a check code in [test](https://github.com/Fdhvdu/SAD-512/tree/master/test). Compile the code by `clang++ -march=native -std=c++17 ...`.<br>
 4.<br>
 Latency and throughput is a good metrics, although they cannot perfectly express execution time sometimes.<br>
